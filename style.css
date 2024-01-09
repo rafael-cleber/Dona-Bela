@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  
+}
+
+
+header {
+  font-family: 'Sevillana', cursive;
+  background-color: #6d096d;
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: rgb(90, 25, 128);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand,
+.nav-link {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(244, 244, 253);
+  padding: 15px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #161612; /* Cor quando hover (pode ser ajustada) */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.search-form {
+  display: flex;
+  margin-left: auto; /* Move o formulário de pesquisa para a direita */
+}
+
+input[type="search"] {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.nome{
+  color: aqua;
+}
+
